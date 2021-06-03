@@ -1,0 +1,1 @@
+docker run --gpus all -it --rm --shm-size=1g --ulimit memlock=-1 -v /mnt/XProject/CMU-MOSEI:/mnt/XProject/CMU-MOSEI -v /mnt/Data/Dataset/CMU_MOSEI:/mnt/Data/Dataset/CMU_MOSEI   -w /mnt/XProject/CMU-MOSEI th2l:tf2.3.1 bash
