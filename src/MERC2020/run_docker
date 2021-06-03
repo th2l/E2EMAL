@@ -1,0 +1,1 @@
+docker run --gpus all -it --rm --shm-size=1g --ulimit memlock=-1 -v /mnt/XProject/MERC-2020:/mnt/XProject/MERC-2020 -v /mnt/Work/Dataset/MERC-2020:/mnt/Work/Dataset/MERC-2020   -w /mnt/XProject/MERC-2020 th2l:tf2.3.1 bash
