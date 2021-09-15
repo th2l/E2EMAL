@@ -1,0 +1,2 @@
+from tfkeras_vggface.vggface import VGGFace
+from tfkeras_vggface.version import __version__
